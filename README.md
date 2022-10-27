@@ -2,6 +2,8 @@
 
 
 
+
+
 ## Resources
 
 * [k6 Learn](https://github.com/grafana/k6-learn) A repository with a course and a ton of learning resources
