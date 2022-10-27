@@ -1,9 +1,1 @@
-FROM loadimpact/k6:0.20.0
-
-USER root
-
-WORKDIR /root/
-
-ENV PATH "$PATH:/root"
-
-ENTRYPOINT ["./k6"]
+FROM grafana/k6

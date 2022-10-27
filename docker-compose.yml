@@ -6,6 +6,7 @@ services:
       dockerfile: Dockerfile.influxdb
     ports:
       - "8086:8086"
+
   grafana:
     build:
       context: .
@@ -18,6 +19,7 @@ services:
       - GF_AUTH_BASIC_ENABLED=false
     ports:
       - "3000:3000"
+
   k6:
     build:
       context: .
